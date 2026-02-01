@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/unmango/go/option"
+	"github.com/unmango/go/fopt"
 )
 
 var (
@@ -37,7 +37,7 @@ func NewClient(options ...Option) *Client {
 
 		PreferredRegion: os.Getenv("PREFERRED_REGION"),
 	}
-	option.ApplyAll(c, options)
+	fopt.ApplyAll(c, options)
 
 	return c
 }
