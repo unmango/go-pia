@@ -1,5 +1,7 @@
 # go-pia
 
+[![Hercules CI](https://hercules-ci.com/api/v1/site/github/account/unmango/project/go-pia/badge)](https://hercules-ci.com/github/unmango/go-pia)
+
 Utilities for programmatically interacting with [Private Internet Access](https://www.privateinternetaccess.com/) in [Go](https://go.dev).
 
 ## Getting Started
